@@ -36,7 +36,9 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 400px;
-  background-color:#555;
+background-color:#800080
+
+/*background: linear-gradient(to right, purple , white); /* Standard syntax */
 }
 .carousel img {
   position: absolute;
