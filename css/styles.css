@@ -1,8 +1,12 @@
 /* BOOTSTRAP 3.x GLOBAL STYLES
 -------------------------------------------------- */
 body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
+    background: image(assets/Pictures/butterfly.png);
+    background-repeat: repeat;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    color: #5a5a5a;
 }
 
 
@@ -36,7 +40,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 400px;
-background-color:#800080
+background-color:#F2A4E8
 
 /*background: linear-gradient(to right, purple , white); /* Standard syntax */
 }
