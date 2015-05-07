@@ -1,20 +1,8 @@
-/* BOOTSTRAP 3.x GLOBAL STYLES
--------------------------------------------------- */
-body {
-    background: image(assets/Pictures/butterfly.png);
-    background-repeat: repeat;
-    width: 95%;
-    margin: 0 auto;
-    padding-bottom: 40px;
-    color: #5a5a5a;
+body{
+    background-color: #fff1ff;
+    margin-bottom: 60px;
 }
 
-
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -22,8 +10,10 @@ body {
   right: 0;
   z-index: 10;
 }
-
-
+#back{
+    background-size: 1%;
+    z-index: -1;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */

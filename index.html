@@ -4,7 +4,7 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
-		<title>Home - Nicola Holistic Health</title>
+		<title>Nicola Holistic Health</title>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -16,8 +16,7 @@
 	<body>
 <div class="navbar-wrapper">
   <div class="container">
-    <div class="navbar navbar-inverse navbar-static-top">
-
+    <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-header">
 	    <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 	      <span class="icon-bar"></span>
@@ -29,25 +28,29 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+               <li><a href="#">Phone: 04 586 2979</a></li>
+               <li><a href="#">Mobile: 021 506 554</a></li>
+               <li><a href="#">Email: reuben1970@xtra.co.nz</a></li>
+                <li role="presentation" class="divider"></li>
+               <li><a href="https://www.linkedin.com/profile/view?id=220930625"><img src="assets/Pictures/linkedin.svg"></a></li>
+                  <li><a href="http://www.naturaltherapypages.co.nz/therapist/3846"><img src="assets/Pictures/natural.jpg"></a></li>
+            </ul></li>
             <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">What I Do<b class="caret"></b></a>
             <ul class="dropdown-menu">
-               <li><a href="#">Personal Training</a></li>
-               <li><a href="#">Sports Massaging</a></li>
-               <li><a href="#">Pet Massaging</a></li>
-               <li><a href="#">Wellness Coaching</a></li>
+               <li><a href="#train">Personal Training</a></li>
+               <li><a href="#sport">Sports Massaging</a></li>
+               <li><a href="#pet">Pet Massaging</a></li>
+               <li><a href="#well">Wellness Coaching</a></li>
             </ul>
          </li>
           </ul>
         </div>
-
     </div>
   </div><!-- /container -->
 </div><!-- /navbar wrapper -->
-
-
 <!-- Carousel
 ================================================== -->
 <div id="myCarousel" class="carousel slide">
@@ -58,7 +61,6 @@
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-
     <div class="item active">
       <div class="container">
         <div class="carousel-caption">
@@ -71,16 +73,13 @@
       <div class="container">
         <div class="carousel-caption">
           <h1>I am a Theraputic and Sports Masseuse</h1>
-            <p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
         </div>
       </div>
     </div>
     <div class="item">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Also:</h1>
-          <h2>I do </h2>
-          <p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
+          <h1>I do personal training and wellness coaching, to improve your mind and body</h1>
         </div>
       </div>
     </div>
@@ -94,14 +93,10 @@
   </a>
 </div>
 <!-- /.carousel -->
-
-
 <!-- Marketing messaging and featurettes
 ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
-
 <div class="container marketing">
-
   <!-- Three columns of text below the carousel -->
   <div class="row">
     <div class="col-md-3 text-center">
@@ -123,7 +118,7 @@
       <p><a class="btn btn-default" href="about.html#pet">Learn more »</a></p>
     </div>
       <div class="col-md-3 text-center">
-      <img class="img-circle" src="http://placehold.it/140x140">
+      <img class="img-circle" src="assets/Pictures/w140.jpg">
       <h2>Wellness Coaching</h2>
       <p>Find motivation and set goals through conversation.</p>
       <p><a class="btn btn-default" href="about.html#well">Learn More »</a></p>
@@ -136,67 +131,60 @@
 
       <div class="row featurette">
         <div class="col-md-7">
+            <a id="train"></a>
           <h2 class="featurette-heading">Personal Training.</h2>
           <p class="lead">A fitness session, motivating you through exercise that is suited to your individual needs, by setting goals, providing feedback and accountability to achieve your health and fitness needs. I aim to increase your fitness, decrease stress, build strength and rehabilitate injuries during these sessions.</p>
-        <p><a class="btn btn-info" href="about.html#train">Book Now »</a></p>
+        <p><a class="btn btn-info" href="#">Contact Me to Book!</a></p>
         </div>
         <div class="col-md-5">
           <img src="assets/Pictures/personal500.jpg">
         </div>
       </div>
-
       <hr class="featurette-divider">
-
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
+            <a id="sport"></a>
           <h2 class="featurette-heading" style="padding-left:15px">Sports Massaging</h2>
-          <p class="lead" style="padding-left:15px">Through the rubbing, pressing and manipulating of soft tissue, muscles and tendons, I help to improve the health and wellbeing of the mind and body. I aim to provide you with relaxation, stress relief, the relief of new and old injuries, improvement of your sports performance and health conditions</p>
-                    <p style="padding-left:15px"><a class="btn btn-info" href="about.html#train">Book Now »</a></p>
-
+          <p class="lead" style="padding-left:15px">Through the rubbing, pressing and manipulating of soft tissue, muscles and tendons, I help to improve the health and wellbeing of the mind and body. I aim to provide you with relaxation, stress relief, the relief of new and old injuries, improvement of your sports performance and health conditions.</p>
+        <p style="padding-left:15px"><a class="btn btn-info" href="#">Contact Me to Book!</a></p>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <img src="assets/Pictures/massage500.jpg" >
         </div>
       </div>
-
       <hr class="featurette-divider">
-
       <div class="row featurette">
         <div class="col-md-7">
+            <a id="pet"></a>
           <h2 class="featurette-heading">Pet Massaging</h2>
           <p class="lead">I use the same strokes and techniques used in human massaging, promoting the health and wellbeing of the animals mind and body. I aim to relieve the stress of your pet, improve joint flexibility, and the immune system of the animal</p>
-             <p><a class="btn btn-info" href="about.html#train">Book Now »</a></p>
+             <p><a class="btn btn-info" href="#">Contact Me to Book!</a></p>
         </div>
         <div class="col-md-5">
           <img src="assets/Pictures/petmassage500.jpg">
         </div>
       </div>
-
       <hr class="featurette-divider">
+          <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+            <a id="well"></a>
+          <h2 class="featurette-heading" style="padding-left:15px">Wellness Coaching</h2>
+          <p class="lead" style="padding-left:15px">Consultation through conversation to set goals and help you find motivation and tools to work with, so you can meet your mental and physical health goals for life balance</p>
+        <p style="padding-left:15px"><a class="btn btn-info" href="#">Contact Me to Book!</a></p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img src="assets/Pictures/wellness500.png" >
+        </div>
+      </div>
+
 
       <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-
     </div>
-  <!-- FOOTER -->
-<footer>
-    <h4>Contact Me:</h4>
-    <div style="float:left; width:200px"><b>Phone:</b> 04 586 2979</div>
-    <div style="float:left; margin-left:30%"><b>Mobile:</b> 021 506 554</div><br>
-    <div style="float:left; width:200px"><b>Email:</b>reuben1970@xtra.co.nz</div>
-    <div style="float:left; margin-left:30%"><b>Contact Me for an Appointment</b></div>
-</footer>
 </div><!-- /.container -->
 	<!-- script references -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
         <script>$('.carousel').carousel({interval: 10000})</script>
 
-
-
-    </body>
-
+</body>
 </html>
-
