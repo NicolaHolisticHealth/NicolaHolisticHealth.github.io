@@ -16,7 +16,9 @@ body{
     font-family: "Lobster"; /*a name to be used later*/
     src: url("assets/Fonts/Lobster_1.3.otf");
 }
+#massage{
 
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -110,6 +112,7 @@ body{
 
 
 
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -140,4 +143,12 @@ body{
 .carousel-inner img {
   margin: auto;
 }
+    #massage{
+        background-image: url("assets/Pictures/massage500.jpg")
+    }
+}
+@media(max-width: 500px){
+     #massage{
+        background-image: url(assets/Pictures/)
+     }
 }
